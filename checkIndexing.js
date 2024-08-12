@@ -1,6 +1,6 @@
 function checkIndexing() {
   var sheetName = "Main"; // Назва аркуша, що використовується
-  var rangeNotation = "A277:A310"; // Діапазон комірок із URL-адресами
+  var rangeNotation = "A2:A10"; // Діапазон комірок із URL-адресами
   
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetName);
   if (!sheet) {
